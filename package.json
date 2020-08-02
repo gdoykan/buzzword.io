@@ -1,0 +1,30 @@
+{
+  "name": "buzzword-io",
+  "version": "1.0.0",
+  "description": "corporate buzzword generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdoykan/buzzword.io.git"
+  },
+  "author": "George Doykan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdoykan/buzzword.io/issues"
+  },
+  "homepage": "https://github.com/gdoykan/buzzword.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.4"
+  }
+}
